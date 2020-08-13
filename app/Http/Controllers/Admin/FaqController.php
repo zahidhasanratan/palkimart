@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers\Admin;
-use Datatables;
+use Yajra\DataTables\DataTables;
 use App\Models\Faq;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;

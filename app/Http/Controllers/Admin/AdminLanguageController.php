@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use Datatables;
+use Yajra\DataTables\DataTables;
 use App\Models\AdminLanguage;
 use App;
 

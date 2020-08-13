@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Classes\GeniusMailer;
-use Datatables;
+use Yajra\DataTables\DataTables;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Input;

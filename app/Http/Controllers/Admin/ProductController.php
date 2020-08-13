@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use App\Models\Childcategory;
 use App\Models\Subcategory;
-use Datatables;
+use Yajra\DataTables\DataTables;
 use Carbon\Carbon;
 use App\Models\Product;
 use App\Models\Category;

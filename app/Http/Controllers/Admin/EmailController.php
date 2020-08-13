@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Admin;
 
-use Datatables;
+use Yajra\DataTables\DataTables;
 use App\Classes\GeniusMailer;
 use App\Models\EmailTemplate;
 use App\Models\Generalsetting;

@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Admin;
 
-use Datatables;
+use Yajra\DataTables\DataTables;
 use Carbon\Carbon;
 use App\Models\Product;
 use App\Models\Category;
