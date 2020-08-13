@@ -498,7 +498,7 @@ class FrontendController extends Controller
         for ($i = 0; $i< $cap_length;$i++)
         {
             $letter = $allowed_letters[rand(0, $length-1)];
-            imagettftext($image, 25, 1, 35+($i*25), 35, $text_color, $font, $letter);
+            //imagettftext($image, 25, 1, 35+($i*25), 35, $text_color, $font, $letter);
             $word.=$letter;
         }
         $pixels = imagecolorallocate($image, 8, 186, 239);
