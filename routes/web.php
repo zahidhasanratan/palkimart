@@ -233,7 +233,7 @@ Route::prefix('admin')->group(function() {
   //------------ ADMIN NOTIFICATION SECTION ENDS ------------
 
   //------------ ADMIN DASHBOARD & PROFILE SECTION ------------
-  Route::get('/', 'Admin\DashboardController@index')->name('admin.dashboard');
+  Route::get('/dashboard', 'Admin\DashboardController@index')->name('admin.dashboard');
   Route::get('/profile', 'Admin\DashboardController@profile')->name('admin.profile');
   Route::post('/profile/update', 'Admin\DashboardController@profileupdate')->name('admin.profile.update');
   Route::get('/password', 'Admin\DashboardController@passwordreset')->name('admin.password');
