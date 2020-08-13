@@ -9,7 +9,7 @@ use App\Models\Order;
 use App\Models\OrderTrack;
 use App\Models\User;
 use App\Models\VendorOrder;
-use Datatables;
+use Yajra\DataTables\DataTables;
 use PDF;
 use Illuminate\Http\Request;
 

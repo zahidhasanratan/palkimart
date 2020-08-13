@@ -6,11 +6,14 @@
     "type": "project",
     "require": {
         "php": ">=7.0.0",
+        "backpack/langfilemanager": "^2.0",
+        "barryvdh/laravel-cors": "^0.7.3",
+        "cartalyst/stripe-laravel": "6.0.*",
         "fideloper/proxy": "~3.3",
         "laravel/framework": "5.5.*",
-		"cartalyst/stripe-laravel": "6.0.*",
         "laravel/tinker": "~1.0",
-		"barryvdh/laravel-cors": "^0.7.3"
+        "yajra/laravel-datatables": "1.5",
+        "yajra/laravel-datatables-oracle": "~9.0"
     },
     "require-dev": {
         "filp/whoops": "~2.0",
